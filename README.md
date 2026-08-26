@@ -4,24 +4,6 @@
 
 Bring Apple's iOS 26 Liquid Glass to your Flutter app — real shader-based blur, physics-driven jelly animations, and dynamic lighting across every platform.
 
-[![pub package](https://img.shields.io/pub/v/liquid_glass_widgets.svg?label=pub.dev&labelColor=333940&logo=dart)](https://pub.dev/packages/liquid_glass_widgets)
-[![pub points](https://img.shields.io/pub/points/liquid_glass_widgets?label=pub%20points&labelColor=333940)](https://pub.dev/packages/liquid_glass_widgets/score)
-[![likes](https://img.shields.io/pub/likes/liquid_glass_widgets?label=likes&labelColor=333940)](https://pub.dev/packages/liquid_glass_widgets/score)
-[![CI](https://github.com/sdegenaar/liquid_glass_widgets/actions/workflows/ci.yml/badge.svg)](https://github.com/sdegenaar/liquid_glass_widgets/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/sdegenaar/liquid_glass_widgets/graph/badge.svg)](https://codecov.io/gh/sdegenaar/liquid_glass_widgets)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-<br>
-
-<img src="docs/assets/hero_row1.webp" width="700" alt="Liquid Glass widgets demo — Apple Music and Podcasts">
-
-<br>
-
-<img src="docs/assets/hero_row2.webp" width="700" alt="Liquid Glass widgets demo — interactive controls and navigation">
-
-</div>
-
-
 ## Installation
 
 ```yaml
