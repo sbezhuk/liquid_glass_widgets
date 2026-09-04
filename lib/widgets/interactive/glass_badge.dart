@@ -138,7 +138,7 @@ class GlassBadge extends StatelessWidget {
 
   /// Creates a dot badge (status indicator).
   ///
-  /// Use for online/offline status, active state indicators, etc.
+  /// Use for active state indicators, status dots, etc.
   ///
   /// [semanticLabel] overrides the default "Active" VoiceOver announcement:
   ///
