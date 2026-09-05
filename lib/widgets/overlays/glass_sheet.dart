@@ -538,8 +538,16 @@ class _GlassSheetState extends State<GlassSheet> with TickerProviderStateMixin {
         );
 
         // The core inner content of the sheet
+        //
+        // top: false — this sheet floats near the bottom of the screen
+        // (see the outer SafeArea in .show(), which already excludes top for
+        // the same reason), so it never needs clearance for the status
+        // bar/notch. Without this, the default top: true reserves that
+        // inset above the drag indicator on every GlassSheet — dead space
+        // with nothing above it to protect.
         Widget innerContent = SafeArea(
           bottom: true,
+          top: false,
           child: Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.stretch,
